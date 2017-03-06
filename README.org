@@ -1,0 +1,29 @@
+#+TITLE: gonw layer
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="../css/readtheorg.css" />
+
+#+CAPTION: logo
+
+# The maximum height of the logo should be 200 pixels.
+[[img/nw.png]]
+
+* 目录                                                   :TOC_4_org:noexport:
+ - [[说明][说明]]
+ - [[安装][安装]]
+ - [[快捷键][快捷键]]
+
+* 说明
+spacemacs my private layer
+
+* 安装
+
+#+begin_src shell
+git clone https://github.com/Gonw/gonw-layer.git ~/.emacs.d/private/gonw
+#+end安装
+* 快捷键
+
+| 按键          | 功能         |
+|---------------+--------------|
+| ~<SPC> a b~   | 格式化文件   |
+| ~<SPC> a r~   | 格式化选区   |
+| ~<SPC> f t~   | speed-bar    |
+| ~<CTRL> 滚轮~ | 缩放窗口字体 |
